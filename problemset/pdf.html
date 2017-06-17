@@ -1,21 +1,11 @@
 <html>
-    <head>
-        <title>
+    <title>
         online pdf key viewer
-        </title>
-        <script type = text/javascript>
-            <!--
-                function getword(s)
-            {
-                location.herf = /web/viewer.html
-                }
-                //--!>
-        </script>
-        <body>
-            Input keywords
-            <form name = "test">
-                <input type = "text" name = "test" onblur="getword(this.value)" value  = "">
-             </form>
-        </body>        
-    </head>
+    </title>
+    <body>
+    <form name = "test" action = "" onsubmit="window.open('https://xingchengyi.github.io/problemset/web/viewer.html?file=/problemset/' + test.fname.value)">
+    <input type="text" name="fname"/>
+    <input type="submit" value="submit">
+    </form>
+    </body>
 </html>
